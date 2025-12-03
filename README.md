@@ -18,17 +18,28 @@ Search for any city like **New York**, **London**, **Tokyo**, **Bangalore**, etc
 
 ##  Project Goals
 
-This project helped me learn the complete DevOps workflow:
+This project helped me understand the **end-to-end DevOps lifecycle** from development to cloud deployment:
 
-✔ Build a FastAPI backend
-✔ Create a simple UI using HTML + Jinja
-✔ Containerize the app with Docker
-✔ Push the Docker image to Docker Hub
-✔ Deploy and run the container on AWS EC2
-✔ Inject API keys securely using environment variables
-✔ Expose a public application on port 80
+1. **Built a FastAPI backend** -
+   Learned how to structure API routes, handle form input, and integrate external APIs.
 
-This is a great beginner-level cloud project showing **end-to-end deployment skills**.
+2. **Created a simple UI using HTML + Jinja** -
+   Rendered dynamic weather data inside HTML templates.
+
+3. **Containerized the application using Docker** -
+   Wrote a Dockerfile, built images, and tested containers locally.
+
+4. **Pushed Docker images to Docker Hub** -
+   Understood image tagging, versioning, and remote registries.
+
+5. **Deployed the container on AWS EC2** -
+   Installed Docker on EC2, pulled images, ran containers, and exposed ports.
+
+6. **Secured API keys using environment variables** -
+   Used `-e OPENWEATHER_API_KEY=...` instead of hard-coding sensitive data.
+
+7. **Hosted a public application via port 80** -
+   Made the app accessible globally with the EC2 public IP address.
 
 ---
 
